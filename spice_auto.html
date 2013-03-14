@@ -81,6 +81,11 @@
             {
                 var host, port, password, scheme = "ws://", uri;
 
+                // Conditionally use secure web sockets.
+                if ("https:" == window.location.protocol) {
+                    scheme = "wss://";
+                }
+
                 // By default, use the host and port of server that served this file
                 host = spice_query_var('host', window.location.hostname);
                 port = spice_query_var('port', window.location.port);

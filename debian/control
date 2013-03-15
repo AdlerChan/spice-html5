@@ -1,0 +1,19 @@
+Source: spice-html5
+Section: unknown
+Priority: extra
+Maintainer: Rafi Khardalian <rafi@metacloud.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://www.spice-space.org/page/Main_Page
+Vcs-Git: git://git.debian.org/collab-maint/spice-html5.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/spice-html5.git;a=summary
+
+Package: spice-html5
+Architecture: all
+Depends: ${misc:Depends}
+Description: SPICE HTML5 client
+ SPICE (the Simple Protocol for Independent Computing Environments)
+ is a remote-display system built for virtual environments which
+ allows users to view a computing "desktop" environment - not only on
+ its computer-server machine, but also from anywhere on the Internet
+ and using a wide variety of machine architectures. 

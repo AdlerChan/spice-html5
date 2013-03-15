@@ -1,3 +1,9 @@
+spice-html5 (2013.1.0~201303142007~0metacloud1) precise; urgency=low
+
+  * Packaging fixes.
+
+ -- Rafi Khardalian <rafi@metacloud.com>  Fri, 15 Mar 2013 03:07:21 +0000
+
 spice-html5 (2013.1.0~201303141951~0metacloud1) precise; urgency=low
 
   * Initial build.
